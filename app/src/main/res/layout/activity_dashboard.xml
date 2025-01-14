@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header Section -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/background" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/bell" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                    app:srcCompat="@drawable/back_profile" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Hmem Ameni"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ameni.hmem@gmail.com"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                    app:layout_constraintStart_toStartOf="@+id/textView"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Button Sections -->
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="404dp"
+                android:orientation="vertical"
+                android:paddingStart="32dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="32dp"
+                android:paddingBottom="16dp">
+
+                <!-- First Button Row -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="59dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/bottom_banner_background"
+                        android:elevation="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="41dp"
+                            android:layout_height="39dp"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_shopping" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="91dp"
+                            android:layout_height="match_parent"
+                            android:padding="20dp"
+                            android:text="E-Shopping"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="59dp"
+                        android:layout_marginStart="8dp"
+                        android:background="@drawable/bottom_banner_background"
+                        android:elevation="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="41dp"
+                            android:layout_height="39dp"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_shopping" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Second Button Row -->
+
+                <!-- third Button Row -->
+                <!--third button -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="59dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/bottom_banner_background"
+                        android:elevation="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="41dp"
+                            android:layout_height="39dp"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_shopping" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="59dp"
+                        android:layout_marginStart="8dp"
+                        android:background="@drawable/bottom_banner_background"
+                        android:elevation="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="41dp"
+                            android:layout_height="39dp"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_shopping" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="59dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/bottom_banner_background"
+                        android:elevation="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="41dp"
+                            android:layout_height="39dp"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_shopping" />
+
+                        <TextView
+                            android:layout_width="91dp"
+                            android:layout_height="match_parent"
+                            android:padding="20dp"
+                            android:text="E-Shopping"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="59dp"
+                        android:layout_marginStart="8dp"
+                        android:background="@drawable/bottom_banner_background"
+                        android:elevation="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="41dp"
+                            android:layout_height="39dp"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_shopping" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Logout Button -->
+    <ImageView
+        android:id="@+id/bottomRightImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:contentDescription="Logout"
+        android:src="@drawable/deconnecter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

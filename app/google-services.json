@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "872548866592",
+    "project_id": "echochicapplication",
+    "storage_bucket": "echochicapplication.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872548866592:android:a9c404b54abdc536bdfa45",
+        "android_client_info": {
+          "package_name": "com.example.echochicapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhLOSBudTG_Q4qEhLFB2RCkNZB7IDBnW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

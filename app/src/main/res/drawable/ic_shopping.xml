@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/shopping"
+            android:gravity="center"
+            android:width="0dp"
+            android:height="0dp" />
+    </item>
+</layer-list>

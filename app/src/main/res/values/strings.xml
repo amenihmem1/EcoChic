@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EcoChicApplication</string>
+    <string name="salon_description">Penderie avec vêtements beiges</string>
+    <string name="jardin_description">Dressing room avec vêtements</string>
+    <string name="chambre_description">Portant avec vêtements roses et bleus</string>
+    <string name="cuisine_description">Portant avec vêtements variés</string>
+    <string name="main_title">Discover Sustainable Fashion</string>
+    <string name="subtitle">Your Journey to Eco-Friendly Style Starts Here\nMake Every Choice Count for the Planet</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_in_prompt">Already have an account? Sign in</string>
+    <string name="facebook_icon">Facebook login</string>
+    <string name="google_icon">Google login</string>
+    <string name="back_button">Retour</string>
+    <string name="login_title">Connexion</string>
+    <string name="appa_name">CalendarAppExample</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+</resources>

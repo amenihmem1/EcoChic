@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.EchoChicApplication" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+    <style name="Theme.EchoChicApplication" parent="Base.Theme.EchoChicApplication">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+<style name="CircleImageview">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">50%</item>
+
+</style>
+</resources>
