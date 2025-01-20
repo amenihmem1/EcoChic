@@ -16,7 +16,7 @@ class ProductCategoryAdapter(
 ) : RecyclerView.Adapter<ProductCategoryAdapter.ProductViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
-        val view = LayoutInflater.from(context).inflate(R.layout.category_row_item, parent, false)
+        val view = LayoutInflater.from(context).inflate(R.layout.product_row_item, parent, false)
         return ProductViewHolder(view)
     }
 

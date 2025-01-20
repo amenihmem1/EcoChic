@@ -1,22 +1,21 @@
-//package com.example.echochicapplication.adapter
+package com.example.echochicapplication.adapter
 
-import android.renderscript.ScriptGroup.Binding
-//import android.view.ViewGroup
-import androidx.recyclerview.widget.RecyclerView
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import com.example.echochicapplication.R
 
-//class LeaderAdapter : RecyclerView.Adapter<LeaderAdapter.ViewHolder>() {
-//    private lateinit var binding:
-  //  class ViewHolder :RecyclerView.ViewHolder(bind)
-
-    //override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LeaderAdapter.ViewHolder {
-      //  TODO("Not yet implemented")
-    //}
-
-    //override fun onBindViewHolder(holder: LeaderAdapter.ViewHolder, position: Int) {
-      //  TODO("Not yet implemented")
-    //}
-
-    //override fun getItemCount(): Int {
-      //  TODO("Not yet implemented")
-    //}
-//}
+class LeaderAdapter : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_leader_adapter)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
+    }
+}
